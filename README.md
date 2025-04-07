@@ -15,10 +15,10 @@
 
 🦐 1.2 数据集收集
 
-    https://github.com/ccccccchh/Train-Factory/blob/main/data/fintech.json
+    示例 https://github.com/ccccccchh/Train-Factory/blob/main/data/fintech.json
   
     放入data下
-    并修改数据注册文件，如下：
+    并在数据注册文件添加，如下示例代码：
   
       "fintech": {
       "file_name": "fintech.json",
