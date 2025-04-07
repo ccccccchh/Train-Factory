@@ -33,8 +33,8 @@
   
 🌐 2.3 启动 Web UI
 
-    cd LLaMA-Factory
-    llamafactory-cli webui
+    cd Train-Factory
+    python src/webui.py
 
 
 🦓 2.4 配置文件
@@ -56,10 +56,8 @@
     lr_scheduler_type: cosine
     max_grad_norm: 1.0
     max_samples: 1000
-    model_name_or_path: /root/autodl-tmp/models/Llama3-8B-Chinese-Chat
     num_train_epochs: 10.0
     optim: adamw_torch
-    output_dir: saves/LLaMA3-8B-Chinese-Chat/lora/train_2024-05-25-20-27-47
     packing: false
     per_device_train_batch_size: 2
     plot_loss: true
@@ -67,7 +65,6 @@
     report_to: none
     save_steps: 100
     stage: sft
-    template: llama3
     use_unsloth: true
     warmup_steps: 0
     
