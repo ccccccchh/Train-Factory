@@ -31,13 +31,13 @@
     }
     
   
-🌐 2.3 启动 Web UI
+🌐 1.3 启动 Web UI
 
     cd Train-Factory
     python src/webui.py
 
 
-🦓 2.4 配置文件
+🦓 1.4 配置文件
 
     cutoff_len: 1024
     dataset: fintech,identity
@@ -69,11 +69,11 @@
     warmup_steps: 0
     
 
-🔢 2.5 模型量化
+🔢 1.5 模型量化
 
     模型量化（Model Quantization）是一种将模型的参数和计算从高精度（通常是 32 位浮点数，FP32）转换为低精度（如 16 位浮点数，FP16，或者 8 位整数，INT8）的过程。
     
 
-🛠️ 2.6 模型合并
+🛠️ 1.6 模型合并
 
     将 base model 与训练好的 LoRA Adapter 合并成一个新的模型。⚠️ 不要使用量化后的模型或 `quantization_bit` 参数来合并 LoRA 适配器。
