@@ -1,6 +1,6 @@
 🐟 整体流程
 
-    git clone https://github.com/ccccccchh/Train-Factory.git
+    git clone https://github.com/ccccccchh/llama-Factory.git
 
     cd ../../Train-Factory
 
